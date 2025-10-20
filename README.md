@@ -31,7 +31,7 @@ A simple and elegant age calculator that calculates your exact age in years, mon
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/age-calculator.git
+   git clone https://github.com/Jeevanm2004/age-calculator.git
    cd age-calculator
    ```
 
@@ -91,7 +91,7 @@ age-calculator/
 
 ## Live Demo
 
-[View Live Demo](https://your-username.github.io/age-calculator)
+[View Live Demo](https://jeevanm2004.github.io/age-calculator)
 
 ## Deployment
 
@@ -101,7 +101,7 @@ age-calculator/
 2. Navigate to "Pages" section
 3. Select "main" branch as source
 4. Save and wait for deployment
-5. Your site will be live at: `https://your-username.github.io/age-calculator`
+5. Your site will be live at: `https://jeevanm2004.github.io/age-calculator`
 
 ## Learning Outcomes
 

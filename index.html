@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-card">
+            <h1>Age Calculator</h1>
+            <p class="subtitle">Calculate your exact age in years, months, and days</p>
+            
+            <form id="ageForm">
+                <div class="form-group">
+                    <label for="birthdate">Enter your birth date:</label>
+                    <input type="text" id="birthdate" placeholder="Select your birthdate" required>
+                    <span class="error-message" id="errorMessage"></span>
+                </div>
+                
+                <button type="submit" class="calculate-btn">Calculate Age</button>
+            </form>
+            
+            <div id="result" class="result hidden">
+                <h2>Your Age</h2>
+                <div class="age-display">
+                    <div class="age-item">
+                        <span class="age-number" id="years">0</span>
+                        <span class="age-label">Years</span>
+                    </div>
+                    <div class="age-item">
+                        <span class="age-number" id="months">0</span>
+                        <span class="age-label">Months</span>
+                    </div>
+                    <div class="age-item">
+                        <span class="age-number" id="days">0</span>
+                        <span class="age-label">Days</span>
+                    </div>
+                </div>
+                <p class="total-days">You have lived for <span id="totalDays">0</span> days!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
